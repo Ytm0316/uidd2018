@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+
+      .image{
+        margin:0;
+        background-image:url("https://raw.githubusercontent.com/Ytm0316/uidd2018/gh-pages/113.jpg");
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position:50% 21%;
+        width:100%;
+        height:100vh;
+      }
+
+      body{
+        margin:0;
+
+      }
+
+      p{
+        color:grey;
+        opacity:0.85;
+        font-family:serif;
+        padding:0;
+        margin:0;
+
+      }
+
+      .heading{
+        color:white;
+        font-family:fantasy;
+        line-height:40%;
+        float:left;
+        font-size:3vw;
+        font-weight:bold;
+      }
+
+      div.leftbox{
+        margin:0;
+        position:absolute;
+        top:50% ;
+        left:0%;
+        opacity:0.81;
+        width:35%;
+        height:25%;
+        background-color: #4dffb8;
+      }
+
+      div.rightbox{
+        font-size:1.5vmax;
+        line-height:2vmin;
+        text-align:center;
+        margin:0;
+        position:absolute;
+        top:60% ;
+        left:35%;
+        opacity:0.67;
+        width:48%;
+        height:40%;
+        background-color: #000000;
+      }
+
+      .logo1{
+        padding:0;
+        margin:0;
+         font-size:12vmin;
+          left:12.3vw;
+           top:20vh;
+            position:absolute;
+             color:#4dffb8;
+              
+           }
+           .logo2{
+             font-size:12vmin;
+             padding:0;
+             margin:0;
+             color:white;
+             position:absolute;
+             height:100%;
+           }
+
+           .preStyle{
+             margin:0;
+             font-family:serif;
+           }
+
+           .button{
+                 background-color: #4dffb8; /* Green */ 
+                  border-radius:20%;
+                      padding: 3.5%;
+                          text-align: center;
+                              text-decoration: none;
+                                  display: inline-block;
+                                      font-size: 2vmin;
+                                          margin:0;
+                                              cursor: pointer;
+                                            }
+
+                                            button.button:active{
+                                              background-color:#00e68a;
+                                            }
+                                            #fb{
+                                              position:absolute;
+                                              color: white;
+                                              border: 2px solid white;
+                                              top:15%;
+                                              left:20%;
+                                            }
+
+                                            #website{
+                                              border: 2px solid #e6e6e6;
+                                              color:#e6e6e6;
+                                              position:absolute;
+                                              top:15%;
+                                              left:60%;
+                                            }
+
+
+
+                                          </style>
+                                          <title>Welcome!</title>
+                                        </head>
+                                        <body>
+                                          <div class="image">
+                                            <div class="logo1">Drifting
+                                              <div class="logo2"><pre class="preStyle">   in Serenity.</pre></div>
+                                            </div>
+                                            <div class="leftbox">
+                                              <a href="https://www.facebook.com/profile.php?id=100001931660249" target="_blank">
+                                                <button class="button fb" id="fb" onclick>
+                                                  Facebook
+                                                </button>
+                                              </a>
+                                              <a href="https://hellopoetry.com/words/tranquility/" target="_blank">
+                                                <button class="button website" id="website">
+                                                  Poem
+                                                </button>
+                                              </a>
+                                            </div>
+                                            <div class="rightbox"><br>
+                                              <h class="heading">Tranquility</h><br><br>
+                                              <p>There exists a place on earth</p><br>
+                                              <p>Where one can find true peace</p><br>
+                                              <p>A place away from stress and pain</p><br>
+                                              <p>A place where all of it will cease </p><br>
+                                              <br>
+                                              <p>For some, it's near the ocean</p><br>
+                                              <p>That a calm can always be found</p><br>
+                                              <p>The waves carry all the stress away</p><br>
+                                              <p>With that familiar relaxing sound</p>
+                                            </div>
+                                          </div>
+                                          <script>
+                                            document.getElementById("website").onmouseover=function(){onweb()};
+                                            document.getElementById("fb").onmouseover=function(){onfb()};
+                                            function onweb(){
+                                              document.getElementById("website").style.color = "white";
+                                              document.getElementById("website").style.border = "2px solid white";
+                                              document.getElementById("fb").style.color = "#e6e6e6";
+                                              document.getElementById("fb").style.border = "2px solid #e6e6e6";
+                                            }
+                                            function onfb(){
+                                              document.getElementById("fb").style.color = "white";
+                                              document.getElementById("fb").style.border = "2px solid white";
+                                              document.getElementById("website").style.color = "#e6e6e6";
+                                              document.getElementById("website").style.border = "2px solid #e6e6e6";
+                                            }
+                                          </script>
+
+                                        </body>
+                                      </html>
