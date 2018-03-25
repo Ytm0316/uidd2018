@@ -26,7 +26,7 @@ z-index:1;
 }
 #seri1{
 opacity:0;
-background-image:url("file:///D:/desktop/webdesign/game_seri_1.png");
+background-image:url("game_seri_1.png");
 position:absolute;
 background-position:50% 50%;
 background-size:488px 86px; 
@@ -39,7 +39,7 @@ z-index:1;
 }
 #seri2{
 opacity:0;
-background-image:url("file:///D:/desktop/webdesign/game_seri_2-s.png");
+background-image:url("game_seri_2-s.png");
 position:absolute;
 background-position:50% 50%;
 background-size:426px 78px; 
@@ -52,7 +52,7 @@ z-index:1;
 }
 #help{
 display:none;
-background-image:url("file:///D:/desktop/webdesign/game_seri_help-s.png");
+background-image:url("game_seri_help-s.png");
 position:absolute;
 background-position:50% 50%;
 background-size:520px 51px; 
@@ -81,7 +81,7 @@ height:116px;
 top:72%;
 left:10%;
 z-index:2;
-background-image:url("file:///D:/desktop/webdesign/sail-s.png");
+background-image:url("sail-s.png");
 background-repeat:no-repeat;
 background-size:cover;
 }
@@ -93,7 +93,7 @@ top:83%;
 left:3%;
 z-index:2;
 transform: rotate(-20deg);
-background-image:url("file:///D:/desktop/webdesign/pad.png");
+background-image:url("pad.png");
 background-repeat:no-repeat;
 background-size:cover;
 }
