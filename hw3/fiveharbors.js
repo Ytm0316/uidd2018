@@ -71,7 +71,7 @@ function draggable(elem){
 	document.getElementById("usehuru").style.display = "block";
 	elem.style.animation = "use 2s forwards ";
 	failinfo.style.display = "none";
-	sailset[1].style.display = "none";
+	//sailset[1].style.display = "none";/*let the sail remain same place*/
 	setTimeout(function(){
 	elem.style.display="none";wind.style.display = "block";},2000);
 	
