@@ -94,21 +94,17 @@ function draggable(elem){
 	}
 	function padding(){
 	failinfo.style.display = "none";
-	elem.style.animation = "use 2s forwards ";
-	setTimeout(function(){/*padding start*/
+	elem.style.display="none";
 	paduse.style.display = "block";
-	paduse.style.animation = "rotatepad 2s forwards";}
-	,2000);
-	
 	setTimeout(function(){/*padding done ,disappear brokenpad start*/
 	paduse.style.display = "none";
 	padbro.style.display = "block"
-	padbro.style.animation = "use 1.5s forwards ";}
-	,3300);
+	padbro.style.animation = "use 4s forwards ";}
+	,800);
 	setTimeout(function(){
 	failinfo.style.display = "block";
 	padbro.style.display = "none";}
-	,4800);
+	,2300);
 	}
   }
  
