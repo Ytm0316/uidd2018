@@ -89,6 +89,7 @@ function draggable(elem){
 	sailset[1].style.display = "block";
 	},1500);
 	setTimeout(function(){
+	elem.style.display="none";
 	failinfo.style.display = "block";
 	},2000);
 	}
