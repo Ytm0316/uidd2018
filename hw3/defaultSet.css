@@ -1,4 +1,9 @@
 html,body{
+-webkit-user-select: none;  /* Chrome all / Safari all */
+-moz-user-select: none;     /* Firefox all */
+-ms-user-select: none;      /* IE 10+ */
+-o-user-select: none;
+user-select: none; 
 overflow:hidden;
 height:100%;
 margin:0;
@@ -8,10 +13,9 @@ top:0;left:0;
 position:absolute;
 height:100%;
 width:100%;
-}
-#bg img{
-height:100%;
-width:100%;
+background-image:url('game-bg.png');
+background-size:100% 100%;
+background-repeat:no-repeat;
 z-index:0;
 }
 #chr{
