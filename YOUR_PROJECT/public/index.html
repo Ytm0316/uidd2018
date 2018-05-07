@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../main.js"></script>
+  </head>
+  <style>
+  </style>
+  <body>
+    <h1>Submit via get test,just ignore this</h1>
+    <form action="/get_data" method="post">
+      first name:<input name="fname" type="text"><br>
+      last  name:<input name="lname" type="text"><br>
+      <button type="submit">submit via get</button>
+    </form>
+    <h1>Register for your student id and name</h1>
+    
+      Name:<input name="Name" type="text"><br>
+      Student ID:<input name="student_id" type="text"><br>
+      <button id="ajax_btn" type="submit">submit via ajax</button><br>
+      <h1>Search Name via student id</h1>
+      search:<input name="search" type="text">
+      <button id="search_btn" type="submit">GO!</button><br>
+    <h1 id="ajax_content"></h1>
+  </body>
+
+
+
+
+</html>
